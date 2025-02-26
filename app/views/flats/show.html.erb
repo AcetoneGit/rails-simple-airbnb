@@ -1,0 +1,38 @@
+
+<div class="flex justify-items-center gap-3 p-3">
+<div>
+<p style="color: green"><%= notice %></p>
+<%= render @flat, button:false %>
+</div>
+
+<div class="mockup-code max-w-sm">
+  <pre data-prefix="$"><code> <%= link_to "Edit this flat", edit_flat_path(@flat) %> </code></pre>
+  <pre data-prefix=">" class="text-warning"><code> <%= link_to "Back to flats", flats_path %> </code></pre>
+  <pre data-prefix=">" class="text-success"><code> <%= link_to "Destroy this flat", @flat, method: :delete %> </code></pre>
+</div>
+
+<div class="mockup-window bg-base-300 border widthomg">
+  <div class="border-base-300 flex justify-center border-t px-4 py-16"><img src="https://i.ibb.co/pjjMc68f/Screenshot-2025-02-26-at-15-25-05.png" alt="" class="img_width"></div>
+</div>
+
+<div class="stats stats-vertical shadow">
+  <div class="stat">
+    <div class="stat-title">Discount (value/day)</div>
+    <div class="stat-value"> 1̶0̶0̶ <strong>75$</strong></div>
+    <div class="stat-desc">2 days left</div>
+  </div>
+
+  <div class="stat">
+    <div class="stat-title">Duration</div>
+    <div class="stat-value">6 nights</div>
+    <div class="stat-desc"> 20/02 to 27/02</div>
+  </div>
+
+  <div class="stat">
+    <div class="stat-title">Animals</div>
+    <div class="stat-value"><i class="fa-solid fa-dog"></i></div>
+    <div class="stat-desc">Dogs are allowed!</div>
+  </div>
+</div>
+
+</div>

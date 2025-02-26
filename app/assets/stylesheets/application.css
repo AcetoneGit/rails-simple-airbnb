@@ -13,3 +13,62 @@
  *= require_tree .
  *= require_self
  */
+
+.background-cards {
+  /* background-color: rgb(255, 255, 255); */
+  padding: 20px;
+}
+
+.size_cost {
+  font-size: 20px;
+}
+
+.background_navbar {
+  background-color: #1a1919;
+  box-shadow: 2px 2px 10px 10px #3e3d3d;
+  border-bottom: 1px solid;
+  border-color: #2a2828;
+}
+
+/* .fullwidth {
+  background-image: url("https://ibb.co/k22wjVf4");
+  background-size: cover;
+  background-position: center;
+} */
+
+.widthomg {
+  width: 500px;
+  background-color: rgb(79, 77, 77);
+  /* background-image: url("https://ibb.co/k22wjVf4");
+  background-size: cover;
+  background-position: center; */
+}
+
+.img_width {
+  width: auto;
+  height: auto;
+  background-position: center;
+  border: 2px, solid;
+  border-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.width-div {
+  width: auto;
+  margin: -140px;
+}
+
+.button_border {
+  border: 1px, solid;
+  border-color: white;
+}
+
+.special_padding {
+  padding: -2000px;
+}

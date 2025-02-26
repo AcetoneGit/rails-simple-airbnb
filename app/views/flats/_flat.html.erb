@@ -1,0 +1,33 @@
+<div id="<%= dom_id flat %>" class="card glass w-96">
+  <figure>
+    <img
+      src="https://a0.muscache.com/im/pictures/46315410-e42d-4891-be78-66d6bd97e72f.jpg?im_w=720&im_format=avif"
+      alt="car!" />
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title">
+          <strong></strong>
+    <%= flat.name %>
+    </h2>
+    <p>
+          <strong></strong>
+    <%= flat.address %>
+    </p>
+       <p>
+          <strong></strong>
+    <%= flat.description %>
+    </p>
+       <p>
+          <strong> <%= flat.number_of_guests %> </strong> <i class="fa-solid fa-users"></i>
+    </p>
+    <div class="card-actions justify-end items-center">
+
+       <p class="size_cost">
+        <strong> <%= flat.price_per_night %> </strong> <i class="fa-solid fa-dollar-sign"></i>/night
+    </p>
+    <% if button %>
+      <button class="btn btn-outline"><%= link_to "Book this flat", flat %></button>
+          <% end %>
+    </div>
+  </div>
+</div>
